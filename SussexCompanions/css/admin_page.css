@@ -1,0 +1,15 @@
+.page{
+      width : 20%;
+      padding-left : 0px;
+      padding : 20px;
+      height: 600px;
+      top: -16px;
+      background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));	  
+    }
+	
+.add_clear{
+		text-align : center;
+    }
+
+
+
