@@ -1,0 +1,72 @@
+body{
+	font-family:'Open Sans', sans-serif;
+}
+*{
+	margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+}
+nav{
+	height:80px;
+    background:white;
+}
+nav ul{
+	float:right;
+    margin-right:90px;
+	}
+nav ul li{
+	display:inline-block;
+    line-height:80px;
+    margin:0 15px;
+}
+nav ul li a{
+	position:relative;
+	color:black;
+	font-size:18px;
+	padding:5px 0;
+	text-transform:uppercase;
+}
+
+lable #btn,
+lable #cancel{
+	color:white;
+	font-size:30px;
+	float:right;
+	line-height:80px;
+	margin-right:40px;
+	cursor:pointer;
+	display:none;
+}
+#check{
+	display:none;
+}
+.button{
+	background:orange;
+	color:white;
+	font-size:18px;
+	padding:5px;
+	border:none;
+	border-radius:25px;
+	cursor:pointer;
+	opacity: 0.6;
+    transition: 0.3s;
+}
+.button:hover {
+	opacity: 1
+}
+.section{     
+	padding:20px;
+    width: auto;	
+    height: auto;
+    background-color:white;
+    color: #000000;   
+    margin-left: 20%;
+	margin-right:20%;
+	margin-top: 7%;
+	border: 3px solid grey;
+    border-radius: 12px;
+}
+.btn btn-warning{
+	float:right;
+}
